@@ -1,0 +1,141 @@
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.main{
+    height: 720px;
+    width: 1280px;
+    position: relative;
+    background: #C4C4C4;
+}
+
+.bars-position{
+    position: absolute;
+    Top: 28px;
+    Left: 28px;
+}
+
+.bar-background{
+    Width: 324px;
+    Height: 24px;
+    border: 3.2px solid #f2f2f2;
+    background: #303030;
+    border-radius: 16.5px;
+    margin-bottom: 18px;
+}
+.value{
+    height: 24px;
+    border-radius: 16.5px 0px 0px 16.5px; 
+
+}
+.healt-hbar{
+    background: #b93030;
+    width: 253.5px;
+}
+.stamina-bar{
+    background: #cb9925;
+    width: 168.5px;
+}
+
+.touch-zone{
+    position: absolute;
+    bottom: 69px;
+    Left: 69px;
+    height: 190px;
+    width: 190px;
+    border: 5px solid #f2f2f2;
+    border-radius: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.touch-aim{
+    height: 80px;
+    width: 80px;
+    background: #f2f2f2;
+    border-radius: 40px;
+}
+
+.buttons-zone{
+    position: absolute;
+    bottom: 67px;
+    right: 67px;
+}
+
+.button{
+    position: absolute;
+    border: 3px solid #f2f2f2;
+    width: 75px;
+    height: 75px;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.button::before{
+    content: "SubButton";
+    position: absolute;
+    font-size: 13px;
+    color: #8e8e8e;
+    top: -20px;
+    left: -3px;
+}
+
+.button-main{
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    width: 112px;
+    height: 112px;
+    border-width: 4px;
+    border-radius: 195px;
+}
+.button-main::before{
+    content: none;
+}
+
+.button-1{
+    bottom: 0px;
+    right: 169px;
+}
+
+.button-1::before{
+    content: "♦ SubButton";
+    position: absolute;
+    font-size: 13px;
+    color: #7b61ff;
+    top: -20px;
+    left: -3px;
+}
+
+.button-2{
+    bottom: 119px;
+    right: 119px;
+}
+
+.button-3{
+    bottom: 169px;
+    right: 0px;
+}
+
+.button-attack{
+    background-image: url(images/sword.png);
+}
+
+.button-inventory{
+    background-image: url(images/inventory.png);
+}
+
+.button-hand{
+    background-image: url(images/hand.png);
+}
+
+.button-tool{
+    background-image: url(images/tool.png);
+}
